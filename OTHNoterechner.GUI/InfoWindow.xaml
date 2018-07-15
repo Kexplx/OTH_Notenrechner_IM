@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
                       mc:Ignorable="d"
-        Title="Nützliches Infos" ShowTitleBar="True" Height="310" Width="330" ResizeMode="CanMinimize">
+        Title="Nützliches Infos" ShowTitleBar="True" Height="282" Width="330" ResizeMode="CanMinimize">
     <Grid Background="LightGray">
-        <Label Foreground="DarkSlateGray" Content="Willkommen beim OTH Notenrechner!&#xA;Orientiert an IW, IN, IT, IM&#xA;&#xA;Notengewichtungen Module:&#xA;1. Studiengang: 1      (Normale Module und Wahlfächer)&#xA;2. Studiengang: 2&#x9;     (Normale Module und Wahlfächer)&#xA;3. Studiengang: 2      (Normale Module und Wahlfächer)&#xA;AW Kurse:          0.5   ( Englisch, etc..)&#xA;Bachelorarbeit:  6 &#xA;&#xA;Die Berechnung der Gesamtnote entsteht wie folgt:&#xA;Sum((Note * Gewichtung des Moduls))  / Sum(Gewichtung)&#xA;&#xA;Ich hoffe der Rechner hilft euch weiter.&#xA;Entwickelt mit WPF in C# Visual Studio 2017&#xD;&#xA;&#xD;&#xA;https://github.com/Kexplx/OTH_Notenrechner_IM.git&#xA;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="324" Height="281"/>
+        <Label Foreground="DarkSlateGray" Content="Willkommen beim OTH Notenrechner!&#xA;Orientiert an den Modulen der Fakultät IM&#xA;&#xA;Notengewichtungen Module:&#xA;1. Studiengang: 1      (Normale Module und Wahlfächer)&#xA;2. Studiengang: 2&#x9;     (Normale Module und Wahlfächer)&#xA;3. Studiengang: 2      (Normale Module und Wahlfächer)&#xA;AW Kurse:          0.5   (Business English, etc..)&#xA;Bachelorarbeit:  6 &#xA;&#xA;Berechnung der Gesamtnote:&#xA;Sum((Note * Gewichtung des Moduls))  / Sum(Gewichtung)&#xA;&#xA;Entwickelt mit C# Visual Studio 2017&#xA;https://github.com/Kexplx/OTH_Notenrechner_IM.git&#xA;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="324" Height="253"/>
     </Grid>
 </Controls:MetroWindow>
